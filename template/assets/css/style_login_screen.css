@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    min-height: 100vh;
+    display: flex;
+    background-color: #ecf0f1;  
+}
+
+.form{
+    width: 400px;
+    margin: auto;
+    align-self: center;
+}
+.card{
+    box-shadow: 1px 1px 5px #ccc;
+    background-color:#58af9b;
+    padding: 30px;
+    border-radius: 5px;
+}
+.card-top{
+    text-align: center;
+}
+
+.title{
+    font-weight: bold;  
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+.description{
+    color: #125444;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: #125444;
+    margin: 16px;
+}
+
+.label-input input{
+    border-radius: 15px;
+    outline: 0;
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: #ecf0f1;
+        
+}
+
+.card-group{
+    margin: 10px;
+}
+
+.label-input{
+    display: flex;
+    align-items: center;
+    background-color: #ecf0f1; 
+    border-radius: 15px;  
+}
+
+.icon-modify{
+    color: #7f8c8d;
+    padding: 0 5px;
+}
+
+.btn-login{
+    width: 50%;
+    height: 30px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 11px;
+    margin-top: 10px; 
+    outline: 0;   
+}
+.btn-login:hover{
+    color: #58af9b;
+    background-color: #fff;
+    transition: .5s;
+    font-weight: bold;   
+}
+
+#btn{
+    text-align: center;
+}
